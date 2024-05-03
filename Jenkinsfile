@@ -9,7 +9,7 @@ pipeline {
         DEV_PROJECT = "jenkins-demo"
         STAGE_PROJECT = "windfire-stage"
         PROD_PROJECT = "windfire-prod"
-        APP_GIT_URL = "https://github.com/robipozzi/windfire-restaurants-node"
+        APP_GIT_URL = "https://github.com/albertina777/windfire-restaurants-node"
     }
     
     agent any

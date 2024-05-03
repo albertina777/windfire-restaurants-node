@@ -6,7 +6,7 @@ pipeline {
 
     environment {
         APP_NAME = "windfire-restaurants-backend"
-        DEV_PROJECT = "windfire"
+        DEV_PROJECT = "jenkins-demo"
         STAGE_PROJECT = "windfire-stage"
         PROD_PROJECT = "windfire-prod"
         APP_GIT_URL = "https://github.com/robipozzi/windfire-restaurants-node"

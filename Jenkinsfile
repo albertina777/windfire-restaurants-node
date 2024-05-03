@@ -12,11 +12,7 @@ pipeline {
         APP_GIT_URL = "https://github.com/robipozzi/windfire-restaurants-node"
     }
     
-    agent {
-      node {
-        label 'nodejs'
-      }
-    }
+    agent any
 
     stages {
         stage('Deploy to DEV environment') {
